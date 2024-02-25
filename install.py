@@ -2,7 +2,7 @@
 
 import subprocess
 
-subprocess.call([ 'pip', 'install' , 'inquirer', '-q' ])
+subprocess.call([ 'pip', 'install' , 'inquirer', '-vv' ])
 
 from facefusion import installer
 
